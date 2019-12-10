@@ -1,5 +1,5 @@
 # Overview
-This module will deploy atlassian bamboo onto a linux server, linux server must have systemd
+This module will deploy jenkins onto a linux server, linux server must have systemd
 
 #### Supported platform families:
  * RHEL
@@ -11,7 +11,7 @@ This module will deploy atlassian bamboo onto a linux server, linux server must 
 ```hcl
 
 module "atlassian_bamboo" {
-  source               = "devoptimist/atlassian-bamboo/linux"
+  source               = "devoptimist/jenkins/linux"
   version              = "0.0.1"
   ips                  = ["172.16.0.23"]
   instance_count       = 1
