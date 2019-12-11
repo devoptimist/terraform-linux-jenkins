@@ -5,6 +5,7 @@ locals {
       "channel" = var.channel,
       "group"   = var.service_group,
       "user_toml_config"  = {
+        "shared-libraries-deploy-key" = var.shared_libraries_deploy_key
       }
     }
   }
